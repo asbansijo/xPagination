@@ -67,7 +67,7 @@ const App = () => {
         <button onClick={handlePreviousPage} disabled={currentPage === 1}>
           Previous
         </button>
-        <span>{currentPage}</span>
+        <span className='page-number'>{currentPage}</span>
         <button onClick={handleNextPage} disabled={currentPage === totalPages}>
           Next
         </button>
