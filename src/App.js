@@ -64,11 +64,11 @@ const App = () => {
         </tbody>
       </table>
       <div className="pagination">
-        <button onClick={handlePreviousPage} disabled={currentPage === 1}>
+        <button onClick={handlePreviousPage} >
           Previous
         </button>
         <span className='page-number'>{currentPage}</span>
-        <button onClick={handleNextPage} disabled={currentPage === totalPages}>
+        <button onClick={handleNextPage} >
           Next
         </button>
       </div>
